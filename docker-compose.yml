@@ -11,7 +11,7 @@
     postgis:
       build: PostgreSQL/.
       environment:
-        - POSTGRES_DB=postgres
+        - POSTGRES_DB=leetcode_db
         - POSTGRES_USER=postgres
         - POSTGRES_PASSWORD=postgres
       networks:
